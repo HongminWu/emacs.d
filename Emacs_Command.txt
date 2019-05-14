@@ -1,0 +1,103 @@
+Ctrl + M                  : move down one line (cursor moved)
+Ctrl + Space              : Set starting mark
+Ctrl + Y                  : Paste
+Ctrl + W                  : Cut
+Ctrl + K	          : Kill to end of sentence
+Ctrl + X + S              : save
+Ctrl + X + C              : save and exit
+Ctrl + X + Ctrl + F       : Open file
+Ctrl + X + O              : Switch to Other frame
+Ctrl + X + 0              : Close current frame
+Ctrl + X + 1              : Keep current frame and close others
+Ctrl + X + 2              : Horizontally split the window
+Ctrl + X + 3              : Vertically split the window
+Ctrl + X + Ctrl + Space   : navigate back between buffers
+Ctrl + Alt + O            : move down one line (cursor pause)
+Ctrl + Alt + V            : scroll down (other buffer)
+Ctrl + V                  : scroll down (current buffer)
+Alt  + V                  : scroll up (current buffer)
+Alt  + ;                  : comment and uncomment a selected block
+Alt  + W                  : Copy
+Alt  + D	          : Kill next word
+Alt  + K	          : Kill to the next blank line
+Alt  + Shift + >          : End of file
+Alt  + Shift + <          : Begin of file
+Alt  + Shift + M          : Select from current cursor to the beginning of the line
+Alt  + Shift + RIGHT      : Move and Select from current cursor to forward word
+Alt  + Shift + LEFT       : Move and Select from current cursor to backward word
+Ctrl + Shift + C + >      : Indent once
+Ctrl + Shift + C + <      : Unindent once
+Alt  + Shift + %          : searches and replaces. (move the cursor to the buffer beginning)
+Alt  + S + O	          : searches and shows all the occurances in an *occur* buffer. 
+
+# move cursor to the found file in *grep* file, press Enter to jump
+Alt  + X grep             : greps a pattern in the files you specify and shows the results in a *Grep* buffer 
+                            e.g. Alt + X grep -nH -e "text" ./dir/*.py
+Alt  + X grep-find        : e.g. Alt + X grep-find, find . -type f -exec grep --color -nH -e TEXT {} +
+Alt  + X rgrep            : recursively grep in a directory (all the files and subdirectories)
+
+# windows configuraton exchange using register
+Alt  + view-register                    : list all existing registers
+Ctrl + X + R(egister) + Space    + CHAR : save position into register, named as CHAR
+Ctrl + X + R(egister) + W(indow) + CHAR : save windows config into register, named as CHAR
+Ctrl + X + R(egister) + J(ump)   + CHAR : Jump to register, named as CHAR
+
+Essential Emacs Reference with Emacs Tutorials
+
+File Commands:
+--------------
+C-x C-f : Opens a file, asks for the file name. If it cannot find the file, creates the file
+C-x C-s : Saves the file without a prompt
+C-x s   : Saves all files with a prompt  
+C-s C-w : Saves the file with a different name. Asks you for the name.
+
+Everytime you save a file, Emacs creates another file with the name "filename~".
+This tilde(~) file is the previous version of the file. It will be in the same dir.
+Also, Emacs auto-saves everything you type to a file with the name "#filename#".
+If you quit Emacs without saving, you can see this auto-save file. Let's do that.
+C-x C-c : Quits Emacs.
+
+M-x recover-file: recovers the auto-saved file.
+
+Copy/Cut/Paste Commands:
+------------------------
+C-y     : Pastes whatever is in the clipboard at the cursor.
+          Subsequent C-y's will keep on pasting.
+C-space : Starts marking/highligting a region.
+C-k     : Kills/deletes the whole line, puts it into the clipboard.
+M-w     : Copies this region into the clipboard.
+C-w     : Cuts this region into the clipboard (deletes the region and copies it to clipbrd)
+
+Saving a region involves hitting C-space to start selecting, and then hitting M-w or C-w to
+copy or cut it into the clipboard, and then hitting C-y to paste it. 
+If you dont like the region you are selecting, hit C-g.
+C-g     : Always quits your command.
+
+Cursor Commands:
+----------------
+C-a     : Beginning of line
+C-e     : End of line
+M->     : End of buffer
+M-<     : Beginning of buffer
+
+C-/     : Undo
+C-g C-/ : Redo
+
+Buffer Management Commands:
+---------------------------
+C-x b   : Switches buffers, asks you which buffer to switch to.
+C-x C-b : Switches buffers, but shows you the list of buffers in a new window
+
+Hit C-x o (other window) to go the other window and hit <enter> on the buffer you want to
+switch to.
+C-x 0   : Will close that window
+C-x 1   : Will leave only one window
+C-x 2   : Will make a horizontal cut and show a secondary window
+C-x 3   : Will make a vertical cut and show a secondary window
+
+Commands:
+---------
+M-x command-name : Will execute the command. 
+M-x pwd  : Prints the working directory
+
+
