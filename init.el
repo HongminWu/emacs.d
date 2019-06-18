@@ -33,7 +33,6 @@
 (require 'auto-complete)
 (global-auto-complete-mode t)
 
-
 ;; enable clipborad in emacs
 (setq x-select-enable-clipboard t)
 
