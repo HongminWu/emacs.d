@@ -14,6 +14,8 @@
 (add-to-list 'package-archives
              '("popkit" . "https://elpa.popkit.org/packages/") t)
 
+(add-to-list 'load-path "~/.emacs.d/lisp")
+
 (package-initialize)
 
 ;; BASIC CUSTOMIZATION

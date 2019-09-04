@@ -2,6 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/" . "src/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/src/paper_graph_plotter/" . "2019journal_abnormal_movement_identification/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/src/" . "paper_graph_plotter/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/" . "src/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/" . "paper_graph_plotter/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/offline_part/" . "anomaly_detection_feature_selection/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/" . "offline_part/")
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/" . "smach_based_introspection_framework/")
+ ("/home/hongminwu/" . "bnpy/")
  ("/home/birl_wu/baxter_ws/src/SPAI/birl_baxter_dmp/" . "scripts/")
  ("/home/birl_wu/robotics-rl-srl/srl_zoo/" . "models/")
  ("/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_synthetic_generation/MAD-GANs/experiments/" . "settings/")
@@ -83,6 +92,16 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/offline_part/anomaly_detection_feature_selection/"
+ "/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/config/"
+ "/home/hongminwu/bnpy/"
+ "/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/src/paper_graph_plotter/2019journal_abnormal_movement_identification/"
+ "/home/hongminwu/baxter_ws/src/SPAI/Variational-Lstm-Autoencoder/LstmVAE/"
+ "/home/hongminwu/.emacs.d/"
+ "/home/hongminwu/nsfc/NSFC-Data-Crawl/Code/finishedProject/finishedProject/"
+ "/home/hongminwu/nsfc/nsfc_search/"
+ "/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/"
+ "/home/hongminwu/baxter_ws/build/"
  "/home/birl_wu/time_series_anomaly_detection_classification_clustering/HMM/hmm_for_baxter_using_only_success_trials/"
  "/home/birl_wu/baxter_ws/src/SPAI/paper_graph_plotter/src/paper_graph_plotter/2018journal_anomaly_detector_and_classifier/plot_dmp/"
  "/home/birl_wu/baxter_ws/src/SPAI/birl_baxter_dmp/scripts/"
@@ -123,34 +142,66 @@
  "/home/birl_wu/time_series_anomaly_detection_classification_clustering/generate-time-series/"
  "/home/birl_wu/baxter_ws/src/SPAI/smach_based_introspection_framework/temp_folder_only_for_technical_indicators/anomaly_detection_feature_selection_folder/No.0 filtering scheme/"
  "/home/birl_wu/baxter_ws/src/SPAI/birl_hmm/src/birl_hmm/bnpy_hmm_wrapper/"
- "/home/birl_wu/baxter_ws/src/SPAI/birl_hmm/src/birl_hmm/hmm_training/"
- "/home/birl_wu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/offline_part/model_training/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/keras_lstm_vae/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/HMM_HongminWu/hmm_for_baxter_using_only_success_trials/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/HMM/hmm_for_baxter_using_only_success_trials/experiment_scripts/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/HMM/data_processing_scripts/"
- "/home/birl_wu/catkin_ws_oroca/src/hrl-assistive/hrl_anomaly_detection/src/hrl_anomaly_detection/RAL18_detection/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/Multivariate-Time-Series-Forecast-using-seq2seq-in-TensorFlow/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/telemanom/"
- "/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/RNN-Time-series-Anomaly-Detection/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "load_csv_data.py"
- "plot_dmp_main_dissertation.py"
- "dmp_demo_only_for_dissertation.py"
+ "filtering_schemes.py"
+ "anomaly_detection_config.py"
+ "setup.py"
+ "setup.cfg"
+ "plot_abnormal_movement_definition.py"
  "model.py"
- "main.py"
- "solver.py"
- "pytorchviz_test.py"
- "run.sh"
- "process_kitting_dataset_to_fit_this_implementation.py"
- "#solver.py#"
+ "demo.py"
+ "prepare_data.py"
+ "#test.py#"
+ "items.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/config/" (23747 53490 0 0) "../" "anomaly_classification_config.py" "./" "dmp_config.pyc" "__init__.pyc" "dmp_config.py" "anomaly_classification_config.pyc" "__init__.py" "anomaly_detection_config.py" "anomaly_detection_config.pyc")
+
+ ("/home/hongminwu/bnpy/" (23906 5959 166070 663000) "MANIFEST.in" "tests/" ".git/" "examples/" "LICENSE.txt" "third-party/" "README.md" "setup.py" "../" "./" "requirements.txt" "setup.cfg" ".eggs/" ".gitignore" "bnpy/" "Makefile" "docs/")
+
+ ("/home/hongminwu/" (23907 21803 633282 758000) ".xsession-errors.old" ".bashrc~" ".rviz/" ".mujoco/" ".Xauthority" ".profile" ".emacs.d/" "hmmlearn/" ".gconf/" ".synaptic/" "nsfc/" "Videos/" "Public/" ".bashrc" ".keras/" ".astropy/" ".ICEauthority" "gym/" ".gnome2/" "Downloads/" "../" ".dmrc" ".bash_logout" ".cache/" "open_sourse_dataset/" "Templates/" ".gitconfig" "pytorch_tutorial/" "./" ".ibus/" "baxter_ws/" "Pictures/" ".ipython/" ".gnome/" ".cmake/" ".bash_history" ".jupyter/" "reinforcement_learning/" "keras_tensorflow_learning/" ".local/" "robInfLib/" ".gnome2_private/" "anaconda3/" ".conda/" ".config/" ".sudo_as_admin_successful" ".dbus/" "Music/" ".mozilla/" "eigen/" ".ros/" ".pki/" ".python_history" "examples.desktop" ".gnupg/" "Qt5.7.1/" "Desktop/" "bnpy/" ".xsession-errors" "Documents/" "robotics-rl-srl/")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/src/paper_graph_plotter/2019journal_abnormal_movement_identification/" (23754 20048 0 0) "plot_norms_of_norminal_whole_exps.py~" "plot_abnormal_movement_definition.py" "unsuccessful_skills/" "../" "lift_up_movement.png" "./" "lift_up.png" "plot_norms_of_abnormal_whole_exps.py" "successful_skills/" "plots/" "lift_up.eps" "whole_experiment_only_success/" "plot_norms_of_norminal_whole_exps.py" "plot_anomalies_via_tsne.py" "plot_norms_of_abnormal_whole_exps.py~" "plot_abnormal_movement_definition.py~" "whole_experiment_with_anomalies/" "plot_anomalies_via_tsne.py~")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/Variational-Lstm-Autoencoder/LstmVAE/" (23900 4792 810089 14000) "model.py" "../" "./" "__init__.py" "prepare_data.py" "demo.py" "demo.py~")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/src/paper_graph_plotter/" (23729 40115 0 0) "2018journal_anomaly_detector_and_classifier/" "2019journal_abnormal_movement_identification/" "../" "2018journal_anomaly_recovery/" "./" "__init__.py")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/src/" (23320 31239 0 0) "../" "paper_graph_plotter/" "./")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/paper_graph_plotter/" (23320 31239 0 0) ".git/" "CMakeLists.txt" "setup.py" "../" "package.xml" "src/" "./" ".gitignore")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/" (23900 2091 627096 389000) "paper_mdpi2018-SynatheticMTS-Classification/" "birl_sensory_data_manager/" "robotiq_force_torque_sensor/" "executive_smach_visualization/" "birl_baxter_urdf/" "birl_tactile_sensor/" "birl_kitting_experiment/" "birl_hmm/" "birl_motion_library/" "paper_mdpi2018-Towards-hindsight-primitives/" "parameters_combinator/" "Variational-Lstm-Autoencoder/" "paper_mdpi2018-deepLearning4AnoomalyDetection/" "../" "paper_mdpi2018-hdphmm_and_deepRegression4AnomalyDetection/" "paper_graph_plotter/" "birl_baxter_online_urdf_update/" "birl_baxter_dmp/" "birl_baxter_common/" "./" "smach_based_introspection_framework/" "birl_baxter_tasks/" "birl_FOONets/" "birl_ar_track_alvar/" "ar_track_alvar/" "paper_robio2018/" "birl_dmp/" "rostopics_to_timeseries/" "birl_moveit_sets/" "birl_ur5_assembly_experiment/")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/Variational-Lstm-Autoencoder/" (23900 2110 739442 975000) ".git/" "README.md" "setup.py" "../" "LICENSE" "./" "LstmVAE/")
+
+ ("/home/hongminwu/.emacs.d/" (23899 50870 578915 666000) "auto-save-list/" ".git/" "anaconda-mode/" "ido.last~" "Emacs_Command.txt" "../" "./" "test.py~" "ac-comphist.dat" "elpa/" "ido.last" "init.el" "lisp/" "test.py")
+
+ ("/home/hongminwu/nsfc/nsfc_search/" (23882 35880 430859 175000) "excel.py" ".git/" "output/" "parse.pyc" "../" "LICENSE" "search.py" "./" "parse.py" ".gitignore")
+
+ ("/home/hongminwu/baxter_ws/build/" (23840 25942 586568 498000) "CTestTestfile.cmake" "test_results/" "CTestConfiguration.ini" "catkin/" "catkin_make.cache" ".built_by" "cmake_install.cmake" "iiwa_stack/" "baxter_interface/" "baxter_examples/" "CMakeCache.txt~" "baxter_tools/" "CMakeFiles/" "../" "Makefile~" "birl_baxter_online_urdf_update/" "baxter_common/" "./" "CTestCustom.cmake" "CMakeCache.txt" "baxter_simulator/" "CATKIN_IGNORE" "gtest/" "atomic_configure/" "baxter_adapt/" "catkin_generated/" "SPAI/" "Makefile" "baxter/")
+
+ ("/home/hongminwu/nsfc/NSFC-Data-Crawl/Code/finishedProject/finishedProject/" (23857 40156 102008 860000) "__pycache__/" "spiders/" "settings.py" "../" "pipelines.py" "./" "middlewares.py" "items.py")
+
+ ("/home/hongminwu/baxter_ws/" (23448 62254 0 0) "devel/" "../" "src/" ".catkin_workspace" "./" "build/")
+
+ ("/home/hongminwu/baxter_ws/src/" (23821 31750 597575 909000) "CMakeLists.txt" "baxter_interface/" "baxter_examples/" "baxter_tools/" "../" ".rosinstall.bak" "baxter_common/" "./" "baxter_simulator/" ".rosinstall" "baxter_adapt/" "SPAI/" "baxter/")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/" (23821 33229 916960 984000) ".git/" "CMakeLists.txt" "introspection_data_folder.AC_offline_test/" "msg/" "README.md" "setup.py" "anomaly_classifier/" "../" "LICENSE" "package.xml" "src/" "./" "requirements.txt~" "requirements.txt" "ICRA2019_glove_gesture_data_folder/" "test/" "readme_tony.md" "srv/" ".gitignore" "scripts/" "build/" "image/" "experiment_record_folder-backup/")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/" (23207 12668 0 0) "../" "./" "smach_based_introspection_framework/")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/" (23746 59122 0 0) "_constant.pyc" "../" "configurables.pyc" "./" "_constant.py~" "offline_part/" "__init__.py" "online_part/" "config/" "_constant.py" "configurables.py~" "configurables.py")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/offline_part/" (23745 41508 0 0) "process_dataset_to_models.pyc" "collect_data_from_rosbag/" "gen_introspection_model.py" "process_experiment_record_to_dataset.pyc" "../" "visualize_dataset.py" "util.pyc" "process_dataset_to_models.py" "util.py" "gen_classification_model.pyc" "./" "process_experiment_record_to_dataset.py" "gen_dmp_model.pyc" "model_training/" "__init__.pyc" "anomaly_classification_feature_selection/" "anomaly_detection_feature_selection/" "__init__.py" "gen_classification_model.py" "gen_dmp_model.py" "gen_introspection_model.pyc")
+
+ ("/home/hongminwu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/offline_part/anomaly_detection_feature_selection/" (23787 50591 0 0) "filtering_schemes.pyc" "msg_filters_with_scaling_and_clip.py" "applsci_journal_paper_plot_hidden_state_and_threshold.pyc" "generate_introspection_models.pyc" "collect_detection_statistics.pyc" "msg_filters_with_scaling_and_clip.pyc" "anomalous_current_loglik_and_threshold--.png" "../" "run_all.py" "generate_dataset_plots.py" "./" "msg_filters.pyc" "applsci_journal_paper_plot_anomaly_detectors_results.pyc" "msg_filters.py" "__init__.pyc" "collect_detection_statistics.py" "generate_human_readable_report.pyc" "generate_succ_and_unsucc_datasets.py" "msg_filters_with_scaling.py" "__init__.py" "generate_human_readable_report.py" "msg_filters_with_scaling.pyc" "generate_dataset_plots.pyc" "draw_model_lottery.py" "generate_introspection_models.py" "anomalous_current_loglik_and_threshold.png" "generate_succ_and_unsucc_datasets.pyc" "filtering_schemes.py")
+
  ("/media/birl_wu/HongminWu_/PhD/RESEARCH-PhD/open-source-dataset/ur5-peg-in-hole-force-torque-dataset/" (23808 42380 0 0) "process_dataset.py~" "process_dataset.py" "MultishapeInsertion/" "MultishapeInsertion.zip" "BiGS_ Biotac Grasp Stability Dataset.pdf" "1807.06749.pdf" "../" "./")
 
  ("/home/birl_wu/baxter_ws/src/SPAI/paper_graph_plotter/src/" (23320 31239 875066 171000) "./" "../" "paper_graph_plotter/")
@@ -308,46 +359,6 @@
  ("/home/birl_wu/temp/online_product_reviews_for_affordances/opra/" (23503 58309 138790 687000) "./" "../" "data/")
 
  ("/home/birl_wu/baxter_ws/src/SPAI/paper_mdpi2018-Towards-hindsight-primitives/ipromps_roman_tutorial_shuangda/scripts/" (23494 59575 397659 182000) "error_compute.py" "train_models.py" "test_data_gen.py~" "results/" "load_data.ipynb" "test_data_gen.py" "noise_cov_cal.ipynb" "util.py" "batch_bag2csv.py" "#train_models.py#" "test_data_gen_orientation.py" "dataset_selection.py" "visualization.py" "train_model.ipynb" "ipromps_lib.pyc" "./" "v_basis_func_scaling.py" "loocv_ee_error.py" "../" "v_basis_func.py" "skeleton_pca.py" "test_online.py" "start_points.py" "hmm_based_state_estimation.py" "train_model_func.py" "train_offline.py" "ipromp_roman_tutorial.ipynb" ".ipynb_checkpoints/" "load_data.py" "action_trigger.py" "train_models_orientation.py" "probabilistic_linear_regression.ipynb" "noise_cov_cal.py" "feature_selection.py" "v_promp.py" "bag_to_csv.sh" "loocv_full.py" "ipromps_lib.py")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/paper_mdpi2018-Towards-hindsight-primitives/ipromps_longxin/cfg/" (23484 24646 951732 448000) "./" "../" "models.cfg")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/paper_mdpi2018-Towards-hindsight-primitives/promps_python/promp/" (23483 3061 78057 241000) "load_mat_file.py" "linear_sys_dyn.pyc" "promp_ctrl.py" "__init__.py" "promp_ctrl.pyc" "demo_with_matlab_data.py" "discrete_promp.pyc" "im_data_1d_opt.mat" "./" "linear_sys_dyn.py" "data_demo_promp.pkl" "../" "data.pkl" "demo_promp.py" "discrete_promp.py" "demo_with_matlab_data.py~")
-
- ("/home/birl_wu/keras/" (23578 16535 654442 859000) "pytest.ini" "setup.py" "docs/" "MANIFEST.in" ".git/" ".gitignore" "PULL_REQUEST_TEMPLATE.md" ".travis/" "tests/" "ISSUE_TEMPLATE.md" ".travis.yml" "keras/" "./" "../" "README.md" ".coveragerc" ".github/" "setup.cfg" "docker/" "CONTRIBUTING.md" "examples/" "LICENSE")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/paper_graph_plotter/src/paper_graph_plotter/" (23729 40115 674471 183000) "__init__.py" "2018journal_anomaly_detector_and_classifier/" "./" "../" "2019journal_abnormal_movement_identification/" "2018journal_anomaly_recovery/")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/paper_mdpi2018-Towards-hindsight-primitives/" (23494 58902 354422 56000) "./" "ipromps_roman_tutorial_shuangda/" "../" "promps_python/" "ipromps_longxin/")
-
- ("/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/deep_autoencoding_gaussian_mixture_model_for_unsupervised_anomaly_detection_in_pytorch/" (23652 53658 224086 269000) "dagmm/" "./" "../")
-
- ("/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/" (23652 53622 274103 921000) "telemanom/" "deep_autoencoding_gaussian_mixture_model_for_unsupervised_anomaly_detection_in_pytorch/" "keras_lstm_vae/" "RNN-Time-series-Anomaly-Detection/" "./" "../" "Multivariate-Time-Series-Forecast-using-seq2seq-in-TensorFlow/" "Variational-Lstm-Autoencoder/")
-
- ("/home/birl_wu/temp/" (23708 10097 277358 887000) "3D_Trajs_globe_longer.py" "pie_demo_features.py~" "the_Amazing_Effectiveness_of_Sequence_to_Sequence_Model_for_Time_Series.py~" "deal_with_spiky_data.py~" "mil/" "plot_3d_bar_with_text.py" "dataset_info.eps" "auto-encoding-variational-bayes/" "blocks/" "outlier_detection.py" "feature_selection_with_sklearn.py~" "legend.py~" "online_product_reviews_for_affordances/" "3D_Trajs_globe_longer.py~" "Beta-VAE/" "spikey_v.dat" "LSTM_learn/" "HiddenMarkovModel/" "hdp-vae/" "spikey_v.dat~" "py_windows.py~" "stock_price_prediction_using_HMM/" "./" "show_hidden_state_sequence_on_toy_data.py~" "genestrain.tab" "../" "pca_test.py~" "horizontal_bar_and_labeled.py" "human-motion-prediction/" "plot_3d_bar_with_text.py~" "feature_selection_with_sklearn.py" "deal_with_spiky_data.py" "show_hidden_state_sequence_on_toy_data.py" "kaggle_datasets/" "TimeSeries_Seq2Seq/" "pybparhmm/" "vae/" "invwishart.py~" "annotation_polar.py~" "vae.py~" "outlier_detection.py~" "invwishart.py" "the_Amazing_Effectiveness_of_Sequence_to_Sequence_Model_for_Time_Series.py" "radar_chart.py" "radar_chart.py~" "pca_test.py" "MAD-GANs/" "py_windows.py" "plot_gamma_beta_distribution.py" "RNNexp/" "legend.py" "horizontal_bar_and_labeled.py~" "vae-anomaly-detector/" "vae_minst.py" "annotation_polar.py")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/paper_mdpi2018-Towards-hindsight-primitives/ipromps_longxin/scripts/" (23721 22796 178075 953000) "error_compute.py" "train_models.py" "results/" "test_data_gen.py" "util.py" "test_data_gen_orientation.py" "dataset_selection.py" "visualization.py" "ipromps_lib.pyc" "promp_models/" "./" "mdpi_nominal_sensor_experiences.py~" "v_basis_func_scaling.py" "loocv_ee_error.py" "../" "v_basis_func.py" "mdpi_plots/" "skeleton_pca.py" "test_online.py" "start_points.py" "hmm_based_state_estimation.py" "train_model_func.py" "train_offline.py" "batch_rosbag_to_csv/" "mdpi_nominal_sensor_experiences.py" "load_data.py" "#v_promp.py#" "action_trigger.py" "train_models_orientation.py" "noise_cov_cal.py" "feature_selection.py" "v_promp.py" "loocv_full.py" "ipromps_lib.py")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/online_part/framework_core/" (23345 34016 911784 355000) "__init__.py" "states.pyc" "./" "../" "states.py" "__init__.pyc")
-
- ("/home/birl_wu/time_series_anomaly_detection_classification_clustering/deep_learning_for_time_series_anomaly_detection/telemanom/" (23705 55520 654073 856000) "telemanom/" ".git/" ".gitignore" "results/" "requirements.txt" "run.py" "config.yaml" "./" "../" "data.zip" "README.md" "data/" "LICENSE.txt" "labeled_anomalies.csv")
-
- ("/home/birl_wu/keras_tensorflow_learning/multimodal_prediction_for_anomaly_prevention/successful_skills/skill 3/" (23698 8347 624471 699000) "No.0_successful_skill_from_experiment_at_2018y05m24d21H48M25S/" "./" "../" "No.0_successful_skill_from_experiment_at_2018y05m24d21H49M25S/" "No.0_successful_skill_from_experiment_at_2018y05m19d15H48M03S/")
-
- ("/home/birl_wu/keras_tensorflow_learning/multimodal_prediction_for_anomaly_prevention/successful_skills/" (23697 64358 903357 0) "skill 3/" "./" "../")
-
- ("/home/birl_wu/baxter_ws/" (23448 62254 549685 558000) "devel/" ".catkin_workspace" "./" "../" "build/" "src/")
-
- ("/home/" (23206 29888 521188 216000) "birl_wu/" "./" "../")
-
- ("/home/birl_wu/temp/stock_price_prediction_using_HMM/" (23693 60699 576245 327000) "analyse_data.py" "stock_predictor_hmm.py~" "./" "../" "get_data_hmm.py~" "parse_data_hmm.py" "data/" "parse_data_hmm.py~" "get_data_hmm.py" "analyse_data.py~")
-
- ("/home/birl_wu/temp/MAD-GANs/" (23694 60247 981816 513000) "AD.py" ".git/" "data_utils.py" "AD_Invert.py" "utils.py" "plotting.py" "DR_discriminator.py" "tf_ops.py" "mmd.py" "./" ".gitattributes" "eval.py" "../" "model.py" "mod_core_rnn_cell_impl.py" "README.md" "differential_privacy/" "eugenium_mmd.py" "__pycache__/" "data/" "RGAN.py" "experiments/")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/birl_kitting_experiment/scripts/" (23302 34774 535158 467000) "smach_based_kitting_experiment_runner.py" "move_to_home.py" "cook_dmp_models_for_smach_states.py" "./" "../" "test_baxter_picking_topic.py" "setup_baxter_left_hand_camera.py" "record_demonstration.py" "set_left_arm2static_pose.py" "alvar_marker_to_baxter_picking_pose.py")
-
- ("/home/birl_wu/baxter_ws/src/SPAI/smach_based_introspection_framework/src/smach_based_introspection_framework/online_part/smach_modifier/" (23381 33480 190356 763000) "__init__.py" "test_data/" "modify_user_sm.pyc" "quaternion_interpolation.py" "dmp_execute.pyc" "util.py" "fake_operator.py" "./" "../" "modify_user_sm.py" "sos.pyc" "quaternion_interpolation.pyc" "dmp_execute.py" "__init__.pyc" "util.pyc" "introspection_execute.py" "introspection_execute.pyc" "sos.py")
-
- ("/home/birl_wu/time_series_anomaly_detection_classification_clustering/HMM/hmm_for_baxter_using_only_success_trials/" (23674 30468 436344 544000) "learn_threshold_for_deri_of_diff.pyc" "hidden_state_log_prob_plot.py" "trial_log_likelihood_plot.pyc" "load_csv_data.pyc" "derivative_threshold_training.py" "__init__.py" "experiment_runner.py" "plot_skill_identification_and_anomaly_detection_in_bg_plot_asssess_skill_id_branch.py" "data_fields_config_store.pyc" "util.py" "learn_threshold_for_log_likelihood.py" "experiment_scripts/" "learn_threshold_for_log_likelihood.pyc" "hmm_model_training.pyc" "birl_hmm_user_interface.py" "emission_log_prob_plot.py" "log_likelihood_incremental_calculator/" "./" "model_generation.py" "check_if_viterbi_path_grow_incrementally.py" "../" "learn_threshold_for_gradient_of_log_likelihood.py" "trial_log_likelihood_gradient_plot.py" "training_config.pyc" "model_score.pyc" "plot_skill_identification_and_anomaly_detection.py" "training_config.py" "baxter_pick_and_place_data/" "hmm_online_service/" "hidden_state_log_prob_plot.pyc" "model_config_store.py" "plot_skill_identification_and_anomaly_detection_in_bg_plot_asssess_skill_id_branch.pyc" "data_fields_config_store.py" "model_config_store.pyc" "check_if_score_metric_converge_loglik_curves.py" "plot_skill_identification_and_anomaly_detection.pyc" "emission_log_prob_plot.pyc" "__init__.pyc" "model_score.py" "load_csv_data.py" "learn_threshold_for_deri_of_diff.py" "anomaly_detection/" "util.pyc" "trial_log_likelihood_plot.py" "hmm_model_training.py" "check_if_viterbi_path_grow_incrementally.pyc" "model_generation.pyc" "learn_threshold_for_gradient_of_log_likelihood.pyc")
 )
 
 ;; ----- ido-unc-hosts-cache -----
